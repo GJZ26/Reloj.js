@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./icon/reloj.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="./css/light.css">
+    <link rel="stylesheet" href="./css/dark.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="reloj" id="reloj">
+            <span class="segundo" id="segundo"></span>
+            <span class="minuto" id="minuto"></span>
+            <span class="hora" id="hora"></span>
+            <span class="cover"></span>
+        </div>
+        <p class="time" id="time">00:00:00</p>
+        <p class="date" id="date">01 de Enero 2000</p>
+        <input type="checkbox" name="modo" id="modo" class="modo">
+    </div>
+    <script src="./js/clock.js"></script>
+    <script src="./js/screen.js" async></script>
+    <script src="./js/theme.js"></script>
+</body>
+</html>
